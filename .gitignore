@@ -30,3 +30,8 @@ yarn.lock
 .idea/
 *.iml
 .vscode/
+CLAUDE.md
+AGENTS.md
+.claude/
+.codex/
+
