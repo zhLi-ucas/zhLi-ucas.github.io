@@ -2,6 +2,7 @@
 import { type CollectionEntry, getCollection } from "astro:content";
 import type { GetStaticPaths, Page } from "astro";
 import Pagination from "../../../components/control/Pagination.astro";
+import { REVIEW_PAGE_SIZE } from "../../../constants/constants";
 import MainGridLayout from "../../../layouts/MainGridLayout.astro";
 
 export const getStaticPaths: GetStaticPaths = async ({ paginate }) => {
@@ -14,7 +15,7 @@ export const getStaticPaths: GetStaticPaths = async ({ paginate }) => {
 				new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf(),
 		);
 
-	return paginate(sortedReviews, { pageSize: 10 });
+	return paginate(sortedReviews, { pageSize: REVIEW_PAGE_SIZE });
 };
 
 interface Props {
@@ -113,7 +114,10 @@ const inactiveTabClass =
 
 					<div class="p-5 flex flex-col flex-1 min-w-0">
 						<div class="flex justify-between items-start mb-3 gap-2">
-							<h2 class="text-xl font-bold text-black dark:text-white line-clamp-1 leading-snug">
+							<h2
+								data-pagefind-body
+								class="text-xl font-bold text-black dark:text-white line-clamp-1 leading-snug"
+							>
 								{review.data.title}
 							</h2>
 							<div

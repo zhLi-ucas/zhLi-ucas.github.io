@@ -1,7 +1,8 @@
 import { type CollectionEntry, getCollection } from "astro:content";
+import { REVIEW_PAGE_SIZE } from "@constants/constants";
 import I18nKey from "@i18n/i18nKey";
 import { i18n } from "@i18n/translation";
-import { getCategoryUrl } from "@utils/url-utils.ts";
+import { getCategoryUrl, url } from "@utils/url-utils.ts";
 
 // // Retrieve posts and sort them by publication date
 async function getRawSortedPosts() {
@@ -45,6 +46,32 @@ export async function getSortedPostsList(): Promise<PostForList[]> {
 	}));
 
 	return sortedPostsList;
+}
+
+export type ReviewForList = {
+	slug: string;
+	data: CollectionEntry<"reviews">["data"];
+	href: string;
+};
+export async function getSortedReviewsList(): Promise<ReviewForList[]> {
+	const sorted = (await getCollection("reviews")).sort(
+		(a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf(),
+	);
+	// Per-category position in this global date-desc order matches the review pages'
+	// paginate() order (filter-then-sort == sort-then-filter for a stable sort).
+	const posInCategory: Record<string, number> = {};
+	return sorted.map((review) => {
+		const category = review.data.category;
+		const pos = posInCategory[category] ?? 0;
+		posInCategory[category] = pos + 1;
+		const page = Math.floor(pos / REVIEW_PAGE_SIZE) + 1;
+		const base = `/reviews/${category}/`;
+		return {
+			slug: review.slug,
+			data: review.data,
+			href: url(page === 1 ? base : `${base}${page}/`),
+		};
+	});
 }
 export type Tag = {
 	name: string;

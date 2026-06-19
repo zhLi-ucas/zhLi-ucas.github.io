@@ -1,4 +1,6 @@
 export const PAGE_SIZE = 8;
+// Reviews paginate per category at this size (src/pages/reviews/*/[...page].astro)
+export const REVIEW_PAGE_SIZE = 10;
 
 export const LIGHT_MODE = "light",
 	DARK_MODE = "dark",
