@@ -4,7 +4,7 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 
 import ConfigCarrier from "@components/ConfigCarrier.astro";
-import { profileConfig, siteConfig } from "@/config";
+import { analyticsConfig, profileConfig, siteConfig } from "@/config";
 import {
 	AUTO_MODE,
 	BANNER_HEIGHT,
@@ -77,6 +77,19 @@ const bannerOffset =
 	  data-overlayscrollbars-initialize
 >
 	<head>
+
+		{import.meta.env.PROD && analyticsConfig.enable && (
+			<>
+				<script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${analyticsConfig.id}`}></script>
+				<script is:inline define:vars={{ gaId: analyticsConfig.id }}>
+					window.dataLayer = window.dataLayer || [];
+					function gtag(){dataLayer.push(arguments);}
+					window.gtag = gtag;
+					gtag('js', new Date());
+					gtag('config', gaId);
+				</script>
+			</>
+		)}
 
 		<title>{pageTitle}</title>
 
@@ -427,6 +440,7 @@ const setup = () => {
 		}
 	});
 	window.swup.hooks.on('page:view', () => {
+		window.gtag?.('event', 'page_view')
 		// hide the temp high element when the transition is done
 		const heightExtend = document.getElementById('page-height-extend')
 		if (heightExtend) {

@@ -11,6 +11,8 @@ declare global {
 				}>;
 			}>;
 		};
+		// Google Analytics (gtag.js) — injected inline in Layout.astro <head>
+		gtag: (...args: unknown[]) => void;
 	}
 }
 
