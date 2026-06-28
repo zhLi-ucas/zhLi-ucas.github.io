@@ -7,24 +7,14 @@ cover: "https://cdn.jsdelivr.net/gh/Richard-dick/blog-image@main/reviews/2026062
 date: 2024-09-08
 ---
 
-承认世界远比你想象中的有趣很难
-
-嘲笑别人则显得容易得多
-
+承认世界远比你想象中的有趣很难/嘲笑别人则显得容易得多
 ...
 
-你衣衫褴褛，不停飞旋
-
-浩瀚又悲伤
-
+你衣衫褴褛，不停飞旋----浩瀚又悲伤
 ...
 
-Un jour je serais de retour près de toi
-
-总有一天，我会来到你身边
-
+Un jour je serais de retour près de toi/总有一天，我会来到你身边
 ...
-
 
 伊苏林迪竹节虫
 

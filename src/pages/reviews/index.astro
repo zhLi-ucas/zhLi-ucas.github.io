@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import { getCoverOrientation } from "@utils/cover-orientation";
 import MainGridLayout from "../../layouts/MainGridLayout.astro";
 
 const allReviews = await getCollection("reviews");
@@ -74,6 +75,14 @@ const inactiveTabClass =
 	<div class="grid grid-cols-1 gap-5">
 		{latestReviews.map(async (review) => {
 			const { Content } = await review.render();
+			const orientation =
+				review.data.category === "game"
+					? await getCoverOrientation(review.data.cover)
+					: "portrait";
+			const coverBox =
+				orientation === "landscape"
+					? "w-full sm:w-[42%] aspect-[3/2]"
+					: "w-full sm:w-[28%] aspect-[2/3]";
 
 			return (
 				<div
@@ -81,11 +90,7 @@ const inactiveTabClass =
 					data-category={review.data.category}
 				>
 					<div
-						class={`relative shrink-0 overflow-hidden bg-gray-100 dark:bg-gray-800 ${
-							review.data.category === "game"
-								? "w-full sm:w-[42%] aspect-[3/2]"
-								: "w-full sm:w-[28%] aspect-[2/3]"
-						}`}
+						class={`relative shrink-0 overflow-hidden bg-gray-100 dark:bg-gray-800 ${coverBox}`}
 					>
 						<img
 							src={review.data.cover}
