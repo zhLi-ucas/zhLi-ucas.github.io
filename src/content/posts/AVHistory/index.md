@@ -5,7 +5,7 @@ description: '当旧有工业的瑕疵和技术限制经过一段时间的延续
 tags: ['av', 'history', 'film', 'movie']
 image: 'shawshank.jpg'
 category: 'thought'
-draft: true
+draft: false
 lang: 'zh-CN'
 ---
 
