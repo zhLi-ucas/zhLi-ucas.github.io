@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1361"
+   height="770"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="Dr. Kerns Powers, SMPTE derivation of 16-9 aspect ratio.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.80235121"
+     inkscape:cx="680.5"
+     inkscape:cy="385"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1188"
+     inkscape:window-height="897"
+     inkscape:window-x="100"
+     inkscape:window-y="16" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Dr. Kerns Powers Derivation of 16:9 Format</dc:title>
+        <dc:date>2009-10-24</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Mark Warren</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Mark Warren</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
+        <dc:description>Dr. Kerns Powers proposed the 16:9 aspect ratio to the SMPTE after overlaying the 1.33, 1.667, 1.85, Panavision 2.2 and CinemaScope 2.35 formats in the way illustrated here.   The overlapped, equal area rectangles fit inside of a 16:9 rectangle and all enclose a smaller, common 16:9 rectangle.</dc:description>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>Mark Warren</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>HDTV</rdf:li>
+            <rdf:li>16:9</rdf:li>
+            <rdf:li>aspect ratio</rdf:li>
+            <rdf:li>SMPTE</rdf:li>
+            <rdf:li>Powers</rdf:li>
+            <rdf:li>Kerns</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-21.000015,-15.862198)">
+    <rect
+       style="fill:none;stroke:#0000ff;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:24, 4;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3167"
+       width="1356.7008"
+       height="765.70074"
+       x="23.149612"
+       y="18.011826" />
+    <rect
+       style="fill:#0000ff;fill-opacity:0.11640212000000000;stroke:#0000ff;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7037037;opacity:0.56194690000000003"
+       id="rect2410"
+       width="1182.613"
+       height="665.28101"
+       x="110.1935"
+       y="69.754036" />
+    <rect
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2383"
+       width="1024"
+       height="768"
+       x="189.50002"
+       y="16.862198" />
+    <rect
+       style="fill:none;stroke:#ec7400;stroke-width:2.14643573999999980;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:0.10052910000000000"
+       id="rect3159"
+       width="1142.8535"
+       height="684.85358"
+       x="130.07326"
+       y="58.435394" />
+    <rect
+       style="fill:none;stroke:#a1a300;stroke-width:1.9952848;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3161"
+       width="1204.0048"
+       height="650.0047"
+       x="100.49767"
+       y="76.859833" />
+    <rect
+       style="fill:none;stroke:#2a008d;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3163"
+       width="1315"
+       height="598"
+       x="44.000015"
+       y="101.86218" />
+    <rect
+       style="fill:none;stroke:#a500d4;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3165"
+       width="1359"
+       height="578"
+       x="22.000015"
+       y="111.86218" />
+    <rect
+       style="fill:none;stroke:#0000ff;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:16, 4;stroke-dashoffset:0;stroke-opacity:0.8677249"
+       id="rect3169"
+       width="1022.002"
+       height="578.00195"
+       x="189.49904"
+       y="111.86121" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="198"
+       y="42.646381"
+       id="text3171"><tspan
+         sodipodi:role="line"
+         id="tspan3173"
+         x="198"
+         y="42.646381"
+         style="font-size:22px;font-weight:bold;fill:#ff0000;fill-opacity:1">TV 4:3/1.33</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="133.09987"
+       y="74.76165"
+       id="text3199"><tspan
+         sodipodi:role="line"
+         id="tspan3201"
+         x="133.09987"
+         y="74.76165"
+         style="font-size:20px;fill:#ff6600;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">European widescreen/1.667</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="102.39948"
+       y="95.661781"
+       id="text3203"><tspan
+         sodipodi:role="line"
+         id="tspan3205"
+         x="102.39948"
+         y="95.661781"
+         style="font-size:20px;fill:#c4c400;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">USA widescreen/1.85</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#5700d9;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="44.965248"
+       y="120.19501"
+       id="text3207"><tspan
+         sodipodi:role="line"
+         id="tspan3209"
+         x="44.965248"
+         y="120.19501"
+         style="font-size:22px;fill:#380093;fill-opacity:1">Panavision/2.2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="28.449629"
+       y="142.92796"
+       id="text3211"><tspan
+         sodipodi:role="line"
+         id="tspan3213"
+         x="28.449629"
+         y="142.92796"
+         style="font-size:22px;fill:#a500d4;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">CinemaScope/2.35</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="77.906746"
+       y="37.379353"
+       id="text3215"><tspan
+         sodipodi:role="line"
+         x="77.906746"
+         y="37.379353"
+         style="font-size:20px;font-weight:normal;text-align:center;text-anchor:middle;fill:#0000ff"
+         id="tspan3186">1.78 outer</tspan><tspan
+         sodipodi:role="line"
+         x="77.906746"
+         y="62.379353"
+         style="font-size:20px;font-weight:normal;text-align:center;text-anchor:middle;fill:#0000ff"
+         id="tspan3190">rectangle</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="291.04538"
+       y="137.90991"
+       id="text3219"><tspan
+         sodipodi:role="line"
+         x="291.04538"
+         y="137.90991"
+         style="font-size:22px;text-align:center;text-anchor:middle;fill:#0000ff"
+         id="tspan3198">1.78 inner</tspan><tspan
+         sodipodi:role="line"
+         x="291.04538"
+         y="165.40991"
+         style="font-size:22px;text-align:center;text-anchor:middle;fill:#0000ff"
+         id="tspan3202">rectangle</tspan><tspan
+         sodipodi:role="line"
+         x="291.04538"
+         y="192.90991"
+         style="font-size:22px;text-align:center;text-anchor:middle;fill:#0000ff"
+         id="tspan3196" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="614.64063"
+       y="90.059944"
+       id="text3204"><tspan
+         sodipodi:role="line"
+         id="tspan3206"
+         x="614.64063"
+         y="90.059944"
+         style="font-size:24px;font-weight:bold;fill:#0000ff;fill-opacity:0.73544976">16:9 HDTV/1.78</tspan></text>
+  </g>
+</svg>
