@@ -3,6 +3,7 @@ title: 画幅比例简史：从35mm胶片到16:9屏幕
 published: 2026-09-01
 description: '当旧有工业的瑕疵和技术限制经过一段时间的延续，就会变成了某种品味而被接受。'
 tags: ['av', 'history', 'film', 'movie']
+image: 'shawshank.jpg'
 category: 'thought'
 draft: true
 lang: 'zh-CN'
